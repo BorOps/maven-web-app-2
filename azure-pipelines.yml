@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'Mihajlo Onboarding'
 
 steps:
 - task: Maven@3
